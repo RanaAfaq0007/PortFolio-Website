@@ -1,0 +1,96 @@
+.desc{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    position: relative;
+}
+.descWrapper{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+
+    width: 1024px;
+}
+
+.Innovative{
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 10px;
+    
+}
+.Innovative>h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #32dbc6;
+
+}
+.Innovative>ul>li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+.Innovative>ul>li>h4{
+    font-weight: 400;
+}
+.Innovative>p{
+    font-weight: 200;
+}
+.Create{
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 10px;
+    
+}
+.Create>ul>li>h4{
+    font-weight: 400;
+}
+.Create>h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #32dbc6;
+
+}
+.Create>ul>li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+.Create>p{
+    font-weight: 200;
+}
+
+.scale{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.scale>ul>li>h4{
+    font-weight: 400;
+}
+.scale>h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #32dbc6;
+
+}
+.scale>p{
+    font-weight: 200;
+}
+.scale>ul>li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+.icon{
+    margin-right: 20px;
+    color: #32dbc6;
+}

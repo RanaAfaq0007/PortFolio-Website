@@ -1,0 +1,122 @@
+.footer{
+    width: 100%;
+ background-color: white;
+    position: relative;
+
+}
+.fp1{
+    background-color: #32dbc6;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.fp1>h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+.fp2{
+    
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    
+}
+
+.descSection{
+    display: flex;
+    justify-content: center;
+    padding: 100px 380px;
+    height: 200px;
+    width: 700px;
+   
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right: 100px;
+    color: lightgray;
+}
+.about>span{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.featuredlist{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 200px;
+
+}
+.featuredlist>span{
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: 500;
+  
+
+}
+.flist{
+    width: 200px;
+}
+.flist>ul>li{
+    color: lightgray;
+    list-style: none;
+    margin: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    animation-duration: 0.3s;
+}
+.flist>ul>li:hover{
+    color: white;
+}
+
+.contactSocial{
+   padding-left: 10px;
+   width: 200px;
+    
+
+}
+
+.smlogo{
+    margin-top: 20px;
+}
+.contactSocial>span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.ico{
+    padding: 5px;
+    color: lightgrey;
+}
+.ico:hover{
+    color: white;
+}
+.endPart1{
+    border-bottom: 1px solid lightgray;
+    margin-left: 300px;
+    width: 900px;
+}
+
+.endPart{
+    padding-top: 30px;
+    margin-left: 600px;
+    padding-bottom: 100px;
+}
+.endPart>p{
+        color: lightgray;
+        
+}
+.endPart>p>small{
+    color: #32dbc6;
+}
+
+

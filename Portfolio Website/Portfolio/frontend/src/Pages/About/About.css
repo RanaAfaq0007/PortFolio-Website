@@ -1,0 +1,57 @@
+.mainAbout{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.aboutContent{
+    display: flex;
+    position: relative;
+    top: 80px;
+    left: 300px;
+    margin-bottom: 250px;
+    width: 60%;
+   
+
+}
+
+.rightPart{
+
+display: flex;
+flex-direction: column;
+
+}
+.techLogo{
+    display: flex;
+    padding-top: 40px;
+    
+    margin-left: 100px;
+    width: 150px;
+}
+
+.nodeimg{
+    object-fit: contain;
+   height: 70px;
+    width: 70px;
+}
+.flutterimg{
+    object-fit: contain;
+    height: 70px;
+     width: 70px;
+ }
+ .reactimg{
+    object-fit: contain;
+     height: 70px;
+     width: 70px;
+ }
+
+ .rightPart>h1{
+    
+    margin-left: 20px;
+    font-weight: 500;
+ }
+ .rightPart>span{
+    margin-left: 30px;
+    width: 450px;
+ }
+
+
